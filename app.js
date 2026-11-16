@@ -84,9 +84,7 @@
   // ---------- Rasm yoki test-rasm ----------
   function thumb(p) {
     const attrs = `class="thumb" data-act="view" data-id="${esc(p.id)}" style="background:${esc(p.image ? "#fff" : p.color || "#eee")}"`;
-    const n = imagesOf(p).length;
-    const badge = n > 1 ? `<span class="img-count">📷 ${n}</span>` : "";
-    if (p.image) return `<div ${attrs}><img src="${esc(p.image)}" alt="" loading="lazy">${badge}</div>`;
+    if (p.image) return `<div ${attrs}><img src="${esc(p.image)}" alt="" loading="lazy"></div>`;
     return `<div ${attrs}>${esc(p.emoji || "📦")}</div>`;
   }
 
@@ -116,24 +114,28 @@
     $("#viewer").hidden = false;
     document.body.style.overflow = "hidden";
     if (inTelegram) tg.BackButton.show();
-    renderViewer();
+    $("#viewer").scrollTop = 0;
+    render();
   }
   function closeViewer() {
     state.viewer = null;
     $("#viewer").hidden = true;
     document.body.style.overflow = "";
     if (inTelegram && state.view === "catalog") tg.BackButton.hide();
+    render();
   }
   function renderViewer() {
     if (!state.viewer) return;
     const p = state.byId[state.viewer], qty = state.cart[p.id] || 0;
     const cat = state.categories.find((c) => c.id === p.category);
     $("#viewer-body").innerHTML = `<div class="viewer-info">
-      ${cat ? `<div class="viewer-cat">${esc(cat.emoji || "")} ${esc(cat.name)}</div>` : ""}
-      <div class="viewer-name">${esc(p.name)}</div>
       <div class="viewer-price">${money(p.price)} <span>/ ${esc(p.unit || "dona")}</span></div>
-      ${qty ? stepper(p.id, qty) : `<button class="add-btn" data-act="add" data-id="${esc(p.id)}">Savatga qo'shish</button>`}
+      <div class="viewer-name">${esc(p.name)}</div>
+      ${cat ? `<div class="viewer-cat">${esc(cat.emoji || "")} ${esc(cat.name)}</div>` : ""}
     </div>`;
+    $("#viewer-bar").innerHTML = qty
+      ? `${stepper(p.id, qty)}<button class="go-btn" data-act="go-cart">Savatga o'tish</button>`
+      : `<button class="add-btn" data-act="add" data-id="${esc(p.id)}">Savatga qo'shish</button>`;
   }
   function stepper(id, qty) {
     return `<div class="stepper"><button data-act="dec" data-id="${id}">−</button><span>${qty}</span><button data-act="inc" data-id="${id}">+</button></div>`;
@@ -153,8 +155,8 @@
     $("#grid").innerHTML = list.map((p) => {
       const qty = state.cart[p.id] || 0;
       return `<div class="card">${thumb(p)}<div class="card-body">
-        <div class="card-name">${esc(p.name)}</div>
         <div class="card-price">${money(p.price)} <span class="card-unit">/ ${esc(p.unit || "dona")}</span></div>
+        <div class="card-name">${esc(p.name)}</div>
         ${qty ? stepper(p.id, qty) : `<button class="add-btn" data-act="add" data-id="${p.id}">Savatga</button>`}
       </div></div>`;
     }).join("");
@@ -197,7 +199,8 @@
     renderCart();
     renderViewer();
     const n = cartCount(), t = money(cartTotal());
-    if (state.view === "catalog") setMainButton(`🛒 Savat (${n}) — ${t}`, n > 0);
+    if (state.viewer) setMainButton("", false);
+    else if (state.view === "catalog") setMainButton(`🛒 Savat (${n}) — ${t}`, n > 0);
     else if (!st.open) setMainButton(`🕗 Buyurtma ${st.when}`, n > 0, false);
     else if (state.view === "cart") setMainButton(`Rasmiylashtirish — ${t}`, n > 0);
     else setMainButton(`✅ Buyurtma berish — ${t}`, n > 0);
@@ -258,6 +261,7 @@
       if (!b) return;
       if (b.dataset.act === "view") { openViewer(b.dataset.id); return; }
       if (b.dataset.act === "close-viewer") { closeViewer(); return; }
+      if (b.dataset.act === "go-cart") { closeViewer(); showView("cart"); return; }
       if (b.dataset.cat) { state.cat = b.dataset.cat; renderChips(); renderGrid(); return; }
       const id = b.dataset.id, q = state.cart[id] || 0;
       if (b.dataset.act === "add") { setQty(id, 1); if (!state.viewer) toast("Savatga qo'shildi"); }
@@ -278,6 +282,7 @@
     if (inTelegram) {
       tg.ready();
       tg.expand();
+      try { tg.setHeaderColor("#ffffff"); tg.setBackgroundColor("#f2f4f7"); } catch (e) {}
       const u = tg.initDataUnsafe && tg.initDataUnsafe.user;
       if (u) $("#form").elements.name.value = [u.first_name, u.last_name].filter(Boolean).join(" ");
     }
