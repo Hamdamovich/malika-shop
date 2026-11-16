@@ -84,14 +84,35 @@
   // ---------- Rasm yoki test-rasm ----------
   function thumb(p) {
     const attrs = `class="thumb" data-act="view" data-id="${esc(p.id)}" style="background:${esc(p.image ? "#fff" : p.color || "#eee")}"`;
-    if (p.image) return `<div ${attrs}><img src="${esc(p.image)}" alt="" loading="lazy"></div>`;
+    const n = imagesOf(p).length;
+    const badge = n > 1 ? `<span class="img-count">📷 ${n}</span>` : "";
+    if (p.image) return `<div ${attrs}><img src="${esc(p.image)}" alt="" loading="lazy">${badge}</div>`;
     return `<div ${attrs}>${esc(p.emoji || "📦")}</div>`;
   }
 
   // ---------- Mahsulotni katta ko'rish ----------
+  const imagesOf = (p) => (p.images && p.images.length ? p.images : p.image ? [p.image] : []);
+
   function openViewer(id) {
-    if (!state.byId[id]) return;
+    const p = state.byId[id];
+    if (!p) return;
     state.viewer = id;
+    // galereya faqat ochilganda chiziladi (savatga qo'shganda varaqlangan joy o'zgarmasligi uchun)
+    const imgs = imagesOf(p);
+    const slides = imgs.length
+      ? imgs.map((src) => `<div class="slide"><img src="${esc(src)}" alt=""></div>`).join("")
+      : `<div class="slide" style="background:${esc(p.color || "#eee")}"><span>${esc(p.emoji || "📦")}</span></div>`;
+    const dots = imgs.length > 1
+      ? `<div class="dots">${imgs.map((_, i) => `<i class="${i ? "" : "on"}"></i>`).join("")}</div>` : "";
+    $("#viewer-gallery").innerHTML = `<div class="gallery">${slides}</div>${dots}` +
+      (imgs.length > 1 ? `<div class="counter">1 / ${imgs.length}</div>` : "");
+    const g = $("#viewer-gallery .gallery");
+    g.addEventListener("scroll", () => {
+      const i = Math.round(g.scrollLeft / g.clientWidth);
+      document.querySelectorAll("#viewer-gallery .dots i").forEach((d, k) => d.classList.toggle("on", k === i));
+      const c = $("#viewer-gallery .counter");
+      if (c) c.textContent = `${i + 1} / ${imgs.length}`;
+    }, { passive: true });
     $("#viewer").hidden = false;
     document.body.style.overflow = "hidden";
     if (inTelegram) tg.BackButton.show();
@@ -107,10 +128,7 @@
     if (!state.viewer) return;
     const p = state.byId[state.viewer], qty = state.cart[p.id] || 0;
     const cat = state.categories.find((c) => c.id === p.category);
-    const img = p.image
-      ? `<div class="viewer-img"><img src="${esc(p.image)}" alt=""></div>`
-      : `<div class="viewer-img" style="background:${esc(p.color || "#eee")}">${esc(p.emoji || "📦")}</div>`;
-    $("#viewer-body").innerHTML = `${img}<div class="viewer-info">
+    $("#viewer-body").innerHTML = `<div class="viewer-info">
       ${cat ? `<div class="viewer-cat">${esc(cat.emoji || "")} ${esc(cat.name)}</div>` : ""}
       <div class="viewer-name">${esc(p.name)}</div>
       <div class="viewer-price">${money(p.price)} <span>/ ${esc(p.unit || "dona")}</span></div>
