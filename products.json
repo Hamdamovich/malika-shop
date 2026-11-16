@@ -88,6 +88,51 @@
       ],
       "image": "images/p3_1794824382744.jpg",
       "color": "#EEF2F7"
+    },
+    {
+      "id": "p4",
+      "name": "Daftar 12 varoqli katak \"Abu Rayhon Beruniy\"",
+      "category": "daftar",
+      "price": 1500,
+      "unit": "dona",
+      "emoji": "📦",
+      "available": true,
+      "images": [
+        "images/p4_1794826093221.jpg",
+        "images/p4_1794826093311.jpg"
+      ],
+      "image": "images/p4_1794826093221.jpg",
+      "color": "#EEF2F7"
+    },
+    {
+      "id": "p5",
+      "name": "Daftar 12 varoqli mayda yozuv \"Said Ahmad\" 1-2 sinflar uchun",
+      "category": "daftar",
+      "price": 1500,
+      "unit": "dona",
+      "emoji": "📦",
+      "available": true,
+      "images": [
+        "images/p5_1794826147097.jpg",
+        "images/p5_1794826147212.jpg"
+      ],
+      "image": "images/p5_1794826147097.jpg",
+      "color": "#EEF2F7"
+    },
+    {
+      "id": "p6",
+      "name": "Daftar 12 varoqli yozuv \"Zahriddin Muhammad Bobur\"",
+      "category": "daftar",
+      "price": 1500,
+      "unit": "dona",
+      "emoji": "📦",
+      "available": true,
+      "images": [
+        "images/p6_1794826187885.jpg",
+        "images/p6_1794826187972.jpg"
+      ],
+      "image": "images/p6_1794826187885.jpg",
+      "color": "#EEF2F7"
     }
   ]
 }
