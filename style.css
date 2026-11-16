@@ -74,6 +74,12 @@ form input.invalid, form textarea.invalid { box-shadow: 0 0 0 2px var(--danger) 
   padding: 11px 12px; border-radius: 12px; color: var(--text) !important; font-size: 15px !important; }
 .radio input { accent-color: var(--btn); width: 18px; height: 18px; margin: 0; }
 .error { color: var(--danger); font-size: 14px; }
+.closed-banner { background: #fff7e0; color: #8a5a00; border-radius: 12px; padding: 10px 12px; margin-bottom: 10px;
+  font-size: 14px; line-height: 1.4; }
+.closed-banner small { display: block; margin-top: 4px; opacity: .85; font-size: 12.5px; }
+.cart-closed { margin: 0 12px 8px; }
+.fallback-btn:disabled { background: #9aa3ae; box-shadow: none; }
+.pickup-note { background: var(--sec); border-radius: 12px; padding: 12px; font-size: 14px; line-height: 1.4; }
 
 /* Brauzerdagi zaxira tugma */
 .fallback-btn { position: fixed; left: 12px; right: 12px; bottom: 12px; z-index: 10; border: none; border-radius: 12px;
