@@ -86,5 +86,30 @@ form input.invalid, form textarea.invalid { box-shadow: 0 0 0 2px var(--danger) 
   padding: 14px; background: var(--btn); color: var(--btn-text); font-weight: 700; font-size: 16px;
   box-shadow: 0 4px 16px rgba(0,0,0,.15); }
 
+/* Mahsulotni katta ko'rish */
+.thumb[data-act="view"] { cursor: zoom-in; }
+.viewer { position: fixed; inset: 0; z-index: 30; background: rgba(0,0,0,.55); display: flex; align-items: flex-end;
+  animation: fade .18s ease; }
+.viewer-box { position: relative; width: 100%; max-height: 94vh; overflow-y: auto; background: var(--bg);
+  border-radius: 20px 20px 0 0; animation: up .22s ease; padding-bottom: 16px; }
+@media (min-width: 560px) { .viewer { align-items: center; justify-content: center; }
+  .viewer-box { max-width: 480px; border-radius: 20px; } }
+.viewer-close { position: absolute; top: 12px; right: 12px; z-index: 2; width: 36px; height: 36px; border: none;
+  border-radius: 50%; background: rgba(0,0,0,.45); color: #fff; font-size: 16px; }
+.viewer-img { width: 100%; aspect-ratio: 1 / 1; display: grid; place-items: center; font-size: 120px; background: #fff;
+  border-radius: 20px 20px 0 0; overflow: hidden; }
+.viewer-img img { width: 100%; height: 100%; object-fit: contain; }
+.viewer-info { padding: 14px 16px 4px; display: flex; flex-direction: column; gap: 6px; }
+.viewer-cat { color: var(--hint); font-size: 13px; }
+.viewer-name { font-size: 19px; font-weight: 700; line-height: 1.25; }
+.viewer-price { font-size: 22px; font-weight: 800; margin: 4px 0 10px; }
+.viewer-price span { font-size: 14px; font-weight: 400; color: var(--hint); }
+.viewer-info .add-btn { padding: 13px; font-size: 16px; border-radius: 12px; }
+.viewer-info .stepper { background: var(--sec); border-radius: 12px; }
+.viewer-info .stepper button { width: 56px; height: 46px; font-size: 22px; }
+.viewer-info .stepper span { font-size: 18px; }
+@keyframes up { from { transform: translateY(40px); opacity: .4; } to { transform: none; opacity: 1; } }
+@keyframes fade { from { opacity: 0; } to { opacity: 1; } }
+
 .toast { position: fixed; left: 50%; bottom: 80px; transform: translateX(-50%); background: rgba(0,0,0,.8); color: #fff;
-  padding: 8px 14px; border-radius: 999px; font-size: 13px; z-index: 20; }
+  padding: 8px 14px; border-radius: 999px; font-size: 13px; z-index: 40; }
