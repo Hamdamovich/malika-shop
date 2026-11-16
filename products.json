@@ -149,6 +149,54 @@
       ],
       "image": "images/p7_1794826749087.jpg",
       "color": "#EEF2F7"
+    },
+    {
+      "id": "p8",
+      "name": "Daftar 36 varoqli yozuv/katak (Turli muqovalik)",
+      "category": "daftar",
+      "price": 2500,
+      "unit": "dona",
+      "emoji": "📦",
+      "available": true,
+      "images": [
+        "images/p8_1794827713111.jpg",
+        "images/p8_1794827713577.jpg",
+        "images/p8_1794827713666.jpg"
+      ],
+      "image": "images/p8_1794827713111.jpg",
+      "color": "#EEF2F7"
+    },
+    {
+      "id": "p9",
+      "name": "Daftar 48 varoqli yozuv/katak (Turli muqovalik)",
+      "category": "daftar",
+      "price": 3000,
+      "unit": "dona",
+      "emoji": "📦",
+      "available": true,
+      "images": [
+        "images/p9_1794827955637.jpg",
+        "images/p9_1794827955731.jpg",
+        "images/p9_1794827955827.jpg"
+      ],
+      "image": "images/p9_1794827955637.jpg",
+      "color": "#EEF2F7"
+    },
+    {
+      "id": "p10",
+      "name": "Daftar 96 varoqli yozuv/katak (Turli muqovalik)",
+      "category": "daftar",
+      "price": 5000,
+      "unit": "dona",
+      "emoji": "📦",
+      "available": true,
+      "images": [
+        "images/p10_1794830752448.jpg",
+        "images/p10_1794830752539.jpg",
+        "images/p10_1794830752631.jpg"
+      ],
+      "image": "images/p10_1794830752448.jpg",
+      "color": "#EEF2F7"
     }
   ]
 }
