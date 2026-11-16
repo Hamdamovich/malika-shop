@@ -3,7 +3,7 @@
   "use strict";
 
   const tg = window.Telegram ? window.Telegram.WebApp : null;
-  const inTelegram = !!(tg && tg.initData);
+  const inTelegram = !!(tg && tg.platform && tg.platform !== "unknown");
 
   const state = {
     shop: {}, categories: [], products: [], byId: {},
