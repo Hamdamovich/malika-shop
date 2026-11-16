@@ -83,8 +83,39 @@
 
   // ---------- Rasm yoki test-rasm ----------
   function thumb(p) {
-    if (p.image) return `<div class="thumb" style="background:${esc(p.color || "#eee")}"><img src="${esc(p.image)}" alt="" loading="lazy"></div>`;
-    return `<div class="thumb" style="background:${esc(p.color || "#eee")}">${esc(p.emoji || "📦")}</div>`;
+    const attrs = `class="thumb" data-act="view" data-id="${esc(p.id)}" style="background:${esc(p.image ? "#fff" : p.color || "#eee")}"`;
+    if (p.image) return `<div ${attrs}><img src="${esc(p.image)}" alt="" loading="lazy"></div>`;
+    return `<div ${attrs}>${esc(p.emoji || "📦")}</div>`;
+  }
+
+  // ---------- Mahsulotni katta ko'rish ----------
+  function openViewer(id) {
+    if (!state.byId[id]) return;
+    state.viewer = id;
+    $("#viewer").hidden = false;
+    document.body.style.overflow = "hidden";
+    if (inTelegram) tg.BackButton.show();
+    renderViewer();
+  }
+  function closeViewer() {
+    state.viewer = null;
+    $("#viewer").hidden = true;
+    document.body.style.overflow = "";
+    if (inTelegram && state.view === "catalog") tg.BackButton.hide();
+  }
+  function renderViewer() {
+    if (!state.viewer) return;
+    const p = state.byId[state.viewer], qty = state.cart[p.id] || 0;
+    const cat = state.categories.find((c) => c.id === p.category);
+    const img = p.image
+      ? `<div class="viewer-img"><img src="${esc(p.image)}" alt=""></div>`
+      : `<div class="viewer-img" style="background:${esc(p.color || "#eee")}">${esc(p.emoji || "📦")}</div>`;
+    $("#viewer-body").innerHTML = `${img}<div class="viewer-info">
+      ${cat ? `<div class="viewer-cat">${esc(cat.emoji || "")} ${esc(cat.name)}</div>` : ""}
+      <div class="viewer-name">${esc(p.name)}</div>
+      <div class="viewer-price">${money(p.price)} <span>/ ${esc(p.unit || "dona")}</span></div>
+      ${qty ? stepper(p.id, qty) : `<button class="add-btn" data-act="add" data-id="${esc(p.id)}">Savatga qo'shish</button>`}
+    </div>`;
   }
   function stepper(id, qty) {
     return `<div class="stepper"><button data-act="dec" data-id="${id}">−</button><span>${qty}</span><button data-act="inc" data-id="${id}">+</button></div>`;
@@ -146,6 +177,7 @@
     renderStatus(st);
     renderGrid();
     renderCart();
+    renderViewer();
     const n = cartCount(), t = money(cartTotal());
     if (state.view === "catalog") setMainButton(`🛒 Savat (${n}) — ${t}`, n > 0);
     else if (!st.open) setMainButton(`🕗 Buyurtma ${st.when}`, n > 0, false);
@@ -160,7 +192,10 @@
     window.scrollTo(0, 0);
     render();
   }
-  function goBack() { showView(state.view === "checkout" ? "cart" : "catalog"); }
+  function goBack() {
+    if (state.viewer) { closeViewer(); return; }
+    showView(state.view === "checkout" ? "cart" : "catalog");
+  }
 
   // ---------- Buyurtma ----------
   function submitOrder() {
@@ -200,11 +235,14 @@
   // ---------- Hodisalar ----------
   function bindEvents() {
     document.body.addEventListener("click", (e) => {
+      if (e.target.id === "viewer") { closeViewer(); return; }   // qora fonga bosilsa yopiladi
       const b = e.target.closest("[data-act],[data-cat]");
       if (!b) return;
+      if (b.dataset.act === "view") { openViewer(b.dataset.id); return; }
+      if (b.dataset.act === "close-viewer") { closeViewer(); return; }
       if (b.dataset.cat) { state.cat = b.dataset.cat; renderChips(); renderGrid(); return; }
       const id = b.dataset.id, q = state.cart[id] || 0;
-      if (b.dataset.act === "add") { setQty(id, 1); toast("Savatga qo'shildi"); }
+      if (b.dataset.act === "add") { setQty(id, 1); if (!state.viewer) toast("Savatga qo'shildi"); }
       if (b.dataset.act === "inc") setQty(id, q + 1);
       if (b.dataset.act === "dec") setQty(id, q - 1);
     });
