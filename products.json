@@ -41,12 +41,53 @@
       "id": "boshqa",
       "name": "Boshqa",
       "emoji": "✂️"
-    },
-    {
-      "id": "c1794819577",
-      "name": "Kanselariya",
-      "emoji": "📦"
     }
   ],
-  "products": []
+  "products": [
+    {
+      "id": "p1",
+      "name": "Daftar 12 varoqli yozuv \"Zahriddin Muhammad Bobur\"",
+      "category": "daftar",
+      "price": 1000,
+      "unit": "dona",
+      "emoji": "📦",
+      "available": true,
+      "images": [
+        "images/p1_1794824251419.jpg",
+        "images/p1_1794824251896.jpg"
+      ],
+      "image": "images/p1_1794824251419.jpg",
+      "color": "#EEF2F7"
+    },
+    {
+      "id": "p2",
+      "name": "Daftar 12 varoqli  katak \"Abu Rayhon Beruniy\"",
+      "category": "daftar",
+      "price": 1000,
+      "unit": "dona",
+      "emoji": "📦",
+      "available": true,
+      "images": [
+        "images/p2_1794824309167.jpg",
+        "images/p2_1794824309632.jpg"
+      ],
+      "image": "images/p2_1794824309167.jpg",
+      "color": "#EEF2F7"
+    },
+    {
+      "id": "p3",
+      "name": "Daftar 12 varoqli mayda yozuv \"G'afur G'ulom\" 1-2sinflar uchun",
+      "category": "daftar",
+      "price": 1000,
+      "unit": "dona",
+      "emoji": "📦",
+      "available": true,
+      "images": [
+        "images/p3_1794824382744.jpg",
+        "images/p3_1794824382864.jpg"
+      ],
+      "image": "images/p3_1794824382744.jpg",
+      "color": "#EEF2F7"
+    }
+  ]
 }
