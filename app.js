@@ -15,6 +15,47 @@
   const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
   const money = (n) => String(n).replace(/\B(?=(\d{3})+(?!\d))/g, " ") + " so'm";
 
+  // ---------- Ish vaqti (Toshkent vaqti bilan, telefon soatiga bog'liq emas) ----------
+  const DAY_SHORT = ["Du", "Se", "Ch", "Pa", "Ju", "Sh", "Ya"];
+  const DAY_FULL = ["dushanba", "seshanba", "chorshanba", "payshanba", "juma", "shanba", "yakshanba"];
+  const TZ_OFFSET_MIN = 5 * 60;
+  const toMin = (s) => { const [a, b] = String(s).split(":").map(Number); return a * 60 + (b || 0); };
+  function hours() {
+    const h = state.shop.hours || {};
+    return { days: h.days || [1, 2, 3, 4, 5, 6], open: h.open || "08:00", close: h.close || "18:00" };
+  }
+  function nowTashkent() {
+    const d = new Date(Date.now() + TZ_OFFSET_MIN * 60000);
+    return { day: ((d.getUTCDay() + 6) % 7) + 1, min: d.getUTCHours() * 60 + d.getUTCMinutes() }; // 1=Du ... 7=Ya
+  }
+  function daysText(days) {
+    const s = [...days].sort((a, b) => a - b);
+    const row = s.length > 2 && s.every((d, i) => i === 0 || d === s[i - 1] + 1);
+    return row ? `${DAY_SHORT[s[0] - 1]}–${DAY_SHORT[s[s.length - 1] - 1]}` : s.map((d) => DAY_SHORT[d - 1]).join(", ");
+  }
+  function shopStatus() {
+    const h = hours(), n = nowTashkent(), o = toMin(h.open), c = toMin(h.close);
+    const schedule = `${daysText(h.days)}, ${h.open}–${h.close}`;
+    if (h.days.includes(n.day) && n.min >= o && n.min < c) return { open: true, schedule };
+    let when = "ish vaqtida";
+    if (h.days.includes(n.day) && n.min < o) when = `bugun soat ${h.open} dan`;
+    else for (let i = 1; i <= 7; i++) {
+      const d = ((n.day - 1 + i) % 7) + 1;
+      if (h.days.includes(d)) { when = i === 1 ? `ertaga soat ${h.open} dan` : `${DAY_FULL[d - 1]} kuni soat ${h.open} dan`; break; }
+    }
+    const reason = !h.days.includes(n.day) ? "Bugun dam olish kuni"
+      : n.min < o ? "Ish vaqti hali boshlanmadi" : "Bugungi ish vaqti tugadi";
+    return { open: false, schedule, when, reason };
+  }
+  function renderStatus(st) {
+    const top = $("#closed-banner"), cart = $("#cart-closed");
+    top.hidden = cart.hidden = st.open;
+    if (st.open) return;
+    top.innerHTML = `🕗 <b>${esc(st.reason)}.</b> Buyurtmalar ${esc(st.when)} qabul qilinadi.` +
+      `<small>Ish vaqti: ${esc(st.schedule)}. Mahsulotlarni hozir savatga qo'shib qo'yishingiz mumkin.</small>`;
+    cart.innerHTML = `🕗 Buyurtmani ${esc(st.when)} bera olasiz. Savatingiz saqlanib turadi.`;
+  }
+
   // ---------- Savatni saqlash ----------
   function saveCart() { try { localStorage.setItem("mp_cart", JSON.stringify(state.cart)); } catch (e) {} }
   function loadCart() {
@@ -83,25 +124,31 @@
   }
 
   // ---------- Asosiy tugma (Telegram MainButton yoki brauzerda zaxira tugma) ----------
-  function setMainButton(text, visible) {
+  function setMainButton(text, visible, active = true) {
     if (inTelegram) {
-      tg.MainButton.setText(text);
-      visible ? tg.MainButton.show() : tg.MainButton.hide();
+      const color = active ? ((tg.themeParams && tg.themeParams.button_color) || "#2a7de1") : "#9aa3ae";
+      tg.MainButton.setParams({ text, color, text_color: "#ffffff", is_active: active, is_visible: visible });
     } else {
-      const b = $("#fallback-btn"); b.textContent = text; b.hidden = !visible;
+      const b = $("#fallback-btn"); b.textContent = text; b.hidden = !visible; b.disabled = !active;
     }
   }
   function onMainButton() {
+    const st = shopStatus();
     if (state.view === "catalog") showView("cart");
+    else if (!st.open) { toast(`Buyurtma ${st.when} qabul qilinadi`); render(); }
     else if (state.view === "cart") { if (cartCount()) showView("checkout"); }
     else if (state.view === "checkout") submitOrder();
   }
 
   function render() {
+    const st = shopStatus();
+    if (!st.open && state.view === "checkout") { showView("cart"); return; }
+    renderStatus(st);
     renderGrid();
     renderCart();
     const n = cartCount(), t = money(cartTotal());
     if (state.view === "catalog") setMainButton(`🛒 Savat (${n}) — ${t}`, n > 0);
+    else if (!st.open) setMainButton(`🕗 Buyurtma ${st.when}`, n > 0, false);
     else if (state.view === "cart") setMainButton(`Rasmiylashtirish — ${t}`, n > 0);
     else setMainButton(`✅ Buyurtma berish — ${t}`, n > 0);
   }
@@ -117,6 +164,7 @@
 
   // ---------- Buyurtma ----------
   function submitOrder() {
+    if (!shopStatus().open) { render(); return; }
     const f = $("#form");
     const data = {
       name: f.elements.name.value.trim(),
@@ -194,6 +242,7 @@
     renderChips();
     bindEvents();
     showView("catalog");
+    setInterval(render, 30000); // ish vaqti boshlansa/tugasa tugmalar o'zi yangilanadi
   }
 
   init();
