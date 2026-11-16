@@ -96,6 +96,21 @@ form input.invalid, form textarea.invalid { box-shadow: 0 0 0 2px var(--danger) 
   .viewer-box { max-width: 480px; border-radius: 20px; } }
 .viewer-close { position: absolute; top: 12px; right: 12px; z-index: 2; width: 36px; height: 36px; border: none;
   border-radius: 50%; background: rgba(0,0,0,.45); color: #fff; font-size: 16px; }
+#viewer-gallery { position: relative; }
+.gallery { display: flex; overflow-x: auto; scroll-snap-type: x mandatory; border-radius: 20px 20px 0 0;
+  scrollbar-width: none; background: #fff; }
+.gallery::-webkit-scrollbar { display: none; }
+.slide { flex: 0 0 100%; aspect-ratio: 1 / 1; scroll-snap-align: center; display: grid; place-items: center; }
+.slide img { width: 100%; height: 100%; object-fit: contain; }
+.slide span { font-size: 120px; }
+.dots { position: absolute; bottom: 10px; left: 0; right: 0; display: flex; justify-content: center; gap: 6px; }
+.dots i { width: 7px; height: 7px; border-radius: 50%; background: rgba(0,0,0,.22); transition: all .2s; }
+.dots i.on { background: var(--btn); width: 18px; border-radius: 4px; }
+.counter { position: absolute; top: 14px; left: 14px; background: rgba(0,0,0,.45); color: #fff; font-size: 12px;
+  padding: 3px 9px; border-radius: 999px; }
+.thumb { position: relative; }
+.img-count { position: absolute; right: 6px; bottom: 6px; background: rgba(0,0,0,.5); color: #fff; font-size: 11px;
+  padding: 2px 6px; border-radius: 999px; }
 .viewer-img { width: 100%; aspect-ratio: 1 / 1; display: grid; place-items: center; font-size: 120px; background: #fff;
   border-radius: 20px 20px 0 0; overflow: hidden; }
 .viewer-img img { width: 100%; height: 100%; object-fit: contain; }
