@@ -3,6 +3,7 @@
   "use strict";
 
   const tg = window.Telegram ? window.Telegram.WebApp : null;
+  // Klaviatura tugmasidan ochilganda initData bo'sh bo'ladi, shuning uchun platform bo'yicha aniqlaymiz
   const inTelegram = !!(tg && tg.platform && tg.platform !== "unknown");
 
   const state = {
@@ -19,7 +20,7 @@
   function loadCart() {
     try {
       const c = JSON.parse(localStorage.getItem("mp_cart") || "{}");
-      for (const id in c) if (state.byId[id] && c[id] > 0) state.cart[id] = c[id];
+      for (const id in c) if (state.byId[id] && state.byId[id].available !== false && c[id] > 0) state.cart[id] = c[id];
     } catch (e) {}
   }
   const cartCount = () => Object.values(state.cart).reduce((a, b) => a + b, 0);
@@ -57,7 +58,7 @@
   function renderGrid() {
     const q = state.q.trim().toLowerCase();
     const list = state.products.filter((p) =>
-      (state.cat === "all" || p.category === state.cat) && (!q || p.name.toLowerCase().includes(q)));
+      p.available !== false && (state.cat === "all" || p.category === state.cat) && (!q || p.name.toLowerCase().includes(q)));
     $("#empty").hidden = list.length > 0;
     $("#grid").innerHTML = list.map((p) => {
       const qty = state.cart[p.id] || 0;
@@ -120,15 +121,14 @@
     const data = {
       name: f.elements.name.value.trim(),
       phone: f.elements.phone.value.trim(),
-      delivery: f.elements.delivery.value,
-      address: f.elements.address.value.trim(),
+      delivery: "pickup", // yetkazib berish xizmati yo'q
+      address: "",
       comment: f.elements.comment.value.trim(),
     };
     const errors = [];
     f.querySelectorAll(".invalid").forEach((el) => el.classList.remove("invalid"));
     if (data.name.length < 2) { errors.push("Ismingizni kiriting"); f.elements.name.classList.add("invalid"); }
     if (data.phone.replace(/\D/g, "").length < 9) { errors.push("Telefon raqamni to'liq kiriting"); f.elements.phone.classList.add("invalid"); }
-    if (data.delivery === "delivery" && data.address.length < 5) { errors.push("Manzilni kiriting"); f.elements.address.classList.add("invalid"); }
     const err = $("#form-error");
     if (errors.length) {
       err.textContent = errors.join(" · "); err.hidden = false;
@@ -163,9 +163,6 @@
     $("#search").addEventListener("input", (e) => { state.q = e.target.value; renderGrid(); });
     $("#clear-cart").addEventListener("click", () => { state.cart = {}; saveCart(); render(); });
     $("#fallback-btn").addEventListener("click", onMainButton);
-    $("#form").addEventListener("change", () => {
-      $("#address-wrap").hidden = $("#form").elements.delivery.value !== "delivery";
-    });
     if (inTelegram) {
       tg.MainButton.onClick(onMainButton);
       tg.BackButton.onClick(goBack);
