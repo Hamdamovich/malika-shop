@@ -1,0 +1,32 @@
+{
+  "shop": {
+    "name": "Malika Print",
+    "subtitle": "Kanselyariya mahsulotlari",
+    "phone": "+998 77 415 72 78"
+  },
+  "categories": [
+    { "id": "daftar", "name": "Daftarlar", "emoji": "📒" },
+    { "id": "ruchka", "name": "Ruchka va qalamlar", "emoji": "🖊️" },
+    { "id": "qogoz", "name": "Qog'oz", "emoji": "📄" },
+    { "id": "papka", "name": "Papka va fayllar", "emoji": "📁" },
+    { "id": "boshqa", "name": "Boshqa", "emoji": "✂️" }
+  ],
+  "products": [
+    { "id": "p1",  "category": "daftar", "name": "Daftar 12 varaq, katak",       "price": 1500,  "emoji": "📗", "color": "#d9f2e3", "image": "", "unit": "dona" },
+    { "id": "p2",  "category": "daftar", "name": "Daftar 48 varaq",              "price": 6000,  "emoji": "📘", "color": "#dbe8fb", "image": "", "unit": "dona" },
+    { "id": "p3",  "category": "daftar", "name": "Umumiy daftar 96 varaq",       "price": 12000, "emoji": "📙", "color": "#fde9d4", "image": "", "unit": "dona" },
+    { "id": "p4",  "category": "ruchka", "name": "Sharikli ruchka, ko'k",        "price": 2000,  "emoji": "🖊️", "color": "#dfe6fb", "image": "", "unit": "dona" },
+    { "id": "p5",  "category": "ruchka", "name": "Gelli ruchka, qora",           "price": 4000,  "emoji": "🖋️", "color": "#e6e6ea", "image": "", "unit": "dona" },
+    { "id": "p6",  "category": "ruchka", "name": "Oddiy qalam HB",               "price": 1500,  "emoji": "✏️", "color": "#fdf3cf", "image": "", "unit": "dona" },
+    { "id": "p7",  "category": "ruchka", "name": "Rangli qalamlar, 12 ta",       "price": 18000, "emoji": "🖍️", "color": "#fbe0e6", "image": "", "unit": "to'plam" },
+    { "id": "p8",  "category": "ruchka", "name": "Marker, 4 rang",               "price": 20000, "emoji": "🖌️", "color": "#e8defa", "image": "", "unit": "to'plam" },
+    { "id": "p9",  "category": "qogoz",  "name": "A4 qog'oz, 500 varaq",         "price": 55000, "emoji": "📄", "color": "#eef1f4", "image": "", "unit": "pachka" },
+    { "id": "p10", "category": "qogoz",  "name": "Rangli qog'oz A4, 100 varaq",  "price": 25000, "emoji": "🌈", "color": "#fde4f0", "image": "", "unit": "pachka" },
+    { "id": "p11", "category": "papka",  "name": "Papka-fayl A4",                "price": 3000,  "emoji": "📁", "color": "#fdf0cf", "image": "", "unit": "dona" },
+    { "id": "p12", "category": "papka",  "name": "Skorosshivatel",               "price": 2500,  "emoji": "🗂️", "color": "#dcefee", "image": "", "unit": "dona" },
+    { "id": "p13", "category": "papka",  "name": "Fayl (multifora), 100 dona",   "price": 30000, "emoji": "📑", "color": "#e3ecf6", "image": "", "unit": "pachka" },
+    { "id": "p14", "category": "boshqa", "name": "Kley qalam",                   "price": 4000,  "emoji": "🧴", "color": "#e5f5dc", "image": "", "unit": "dona" },
+    { "id": "p15", "category": "boshqa", "name": "Qaychi",                       "price": 10000, "emoji": "✂️", "color": "#fbe3dc", "image": "", "unit": "dona" },
+    { "id": "p16", "category": "boshqa", "name": "Chizg'ich 30 sm",              "price": 3000,  "emoji": "📏", "color": "#f6ecd9", "image": "", "unit": "dona" }
+  ]
+}
