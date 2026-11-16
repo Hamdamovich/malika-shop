@@ -282,7 +282,8 @@
       if (u) $("#form").elements.name.value = [u.first_name, u.last_name].filter(Boolean).join(" ");
     }
     try {
-      const res = await fetch("products.json", { cache: "no-store" });
+      // ?t=... — GitHub keshi eski ro'yxatni bermasligi uchun har safar yangi manzil
+      const res = await fetch("products.json?t=" + Date.now(), { cache: "no-store" });
       const data = await res.json();
       state.shop = data.shop || {};
       state.categories = data.categories || [];
