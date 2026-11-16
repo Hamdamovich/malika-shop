@@ -219,6 +219,17 @@
       "available": true,
       "image": "images/p17_1794819680.jpg",
       "color": "#EEF2F7"
+    },
+    {
+      "id": "p18",
+      "name": "Ruchka uchun idish \"Kurtka\"",
+      "category": "c1794819577",
+      "price": 50000,
+      "unit": "dona",
+      "emoji": "📦",
+      "available": true,
+      "image": "images/p18_1794821151.jpg",
+      "color": "#EEF2F7"
     }
   ]
 }
