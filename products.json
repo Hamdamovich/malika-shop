@@ -133,6 +133,23 @@
       ],
       "image": "images/p6_1794826187885.jpg",
       "color": "#EEF2F7"
+    },
+    {
+      "id": "p7",
+      "name": "Daftar 24 varoqli yozuv/katak (Turli muqovalik)",
+      "category": "daftar",
+      "price": 2000,
+      "unit": "dona",
+      "emoji": "📦",
+      "available": true,
+      "images": [
+        "images/p7_1794826748988.jpg",
+        "images/p7_1794826749087.jpg",
+        "images/p7_1794826749180.jpg",
+        "images/p7_1794826749275.jpg"
+      ],
+      "image": "images/p7_1794826748988.jpg",
+      "color": "#EEF2F7"
     }
   ]
 }
