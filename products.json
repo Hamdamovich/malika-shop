@@ -41,6 +41,11 @@
       "id": "boshqa",
       "name": "Boshqa",
       "emoji": "✂️"
+    },
+    {
+      "id": "c1794831359486",
+      "name": "Kitoblar",
+      "emoji": "📖"
     }
   ],
   "products": [
@@ -196,6 +201,76 @@
         "images/p10_1794830752631.jpg"
       ],
       "image": "images/p10_1794830752448.jpg",
+      "color": "#EEF2F7"
+    },
+    {
+      "id": "p11",
+      "name": "Kitob \"Tushda kechgan umrlar\" (O'tkir Hoshimov)",
+      "category": "c1794831359486",
+      "price": 25000,
+      "unit": "dona",
+      "emoji": "📦",
+      "available": true,
+      "images": [
+        "images/p11_1794890976453.jpg"
+      ],
+      "image": "images/p11_1794890976453.jpg",
+      "color": "#EEF2F7"
+    },
+    {
+      "id": "p12",
+      "name": "Kitob \"Dunyoning ishlari\" (O'tkir Hoshimov)",
+      "category": "c1794831359486",
+      "price": 25000,
+      "unit": "dona",
+      "emoji": "📦",
+      "available": true,
+      "images": [
+        "images/p12_1794891022005.jpg"
+      ],
+      "image": "images/p12_1794891022005.jpg",
+      "color": "#EEF2F7"
+    },
+    {
+      "id": "p13",
+      "name": "Kitob \"Nur borki soya bor\" (O'tkir Hoshimov)",
+      "category": "c1794831359486",
+      "price": 25000,
+      "unit": "dona",
+      "emoji": "📦",
+      "available": true,
+      "images": [
+        "images/p13_1794891079964.jpg"
+      ],
+      "image": "images/p13_1794891079964.jpg",
+      "color": "#EEF2F7"
+    },
+    {
+      "id": "p14",
+      "name": "Kitob \"Tushda kechgan umrlar\" (O'tkir Hoshimov)",
+      "category": "c1794831359486",
+      "price": 25000,
+      "unit": "dona",
+      "emoji": "📦",
+      "available": true,
+      "images": [
+        "images/p14_1794891127244.jpg"
+      ],
+      "image": "images/p14_1794891127244.jpg",
+      "color": "#EEF2F7"
+    },
+    {
+      "id": "p15",
+      "name": "Kitob \"Ikki karra ikki besh\" (O'tkir Hoshimov)",
+      "category": "c1794831359486",
+      "price": 25000,
+      "unit": "dona",
+      "emoji": "📦",
+      "available": true,
+      "images": [
+        "images/p15_1794891190497.jpg"
+      ],
+      "image": "images/p15_1794891190497.jpg",
       "color": "#EEF2F7"
     }
   ]
