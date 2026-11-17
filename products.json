@@ -272,6 +272,20 @@
       ],
       "image": "images/p15_1794891190497.jpg",
       "color": "#EEF2F7"
+    },
+    {
+      "id": "p16",
+      "name": "Kitob \"Ikki eshik orasi\" (O'tkir Hoshimov)",
+      "category": "c1794831359486",
+      "price": 30000,
+      "unit": "dona",
+      "emoji": "📦",
+      "available": true,
+      "images": [
+        "images/p16_1794891349753.jpg"
+      ],
+      "image": "images/p16_1794891349753.jpg",
+      "color": "#EEF2F7"
     }
   ]
 }
