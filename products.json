@@ -651,23 +651,23 @@
       "emoji": "📦",
       "available": true,
       "images": [
-        "images/p42_1795511937566.jpg"
+        "images/p42_1795524151671.jpg"
       ],
-      "image": "images/p42_1795511937566.jpg",
+      "image": "images/p42_1795524151671.jpg",
       "color": "#EEF2F7"
     },
     {
       "id": "p43",
-      "name": "Kitob \"Boy ota kambag'al ota\" (Robert T.Kiyosaki, SHaron L. Lechter)",
+      "name": "Kitob \"Boy ota kambag'al ota\" (Robert T.Kiyosaki, Sharon L. Lechter)",
       "category": "c1794831359486",
       "price": 30000,
       "unit": "dona",
       "emoji": "📦",
       "available": true,
       "images": [
-        "images/p43_1795512427295.jpg"
+        "images/p43_1795524194715.jpg"
       ],
-      "image": "images/p43_1795512427295.jpg",
+      "image": "images/p43_1795524194715.jpg",
       "color": "#EEF2F7"
     },
     {
@@ -686,7 +686,7 @@
     },
     {
       "id": "p45",
-      "name": "Kitob \"Kaftingdagi kapalak\" (Axmad SHarif Izgoran)",
+      "name": "Kitob \"Kaftingdagi kapalak\" (Axmad Sharif Izgoran)",
       "category": "c1794831359486",
       "price": 48000,
       "unit": "dona",
