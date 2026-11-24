@@ -851,6 +851,34 @@
       ],
       "image": "images/p56_1795518081679.jpg",
       "color": "#EEF2F7"
+    },
+    {
+      "id": "p57",
+      "name": "Kitob \"Chinor\" (Asqad Muxtor)",
+      "category": "c1794831359486",
+      "price": 30000,
+      "unit": "dona",
+      "emoji": "📦",
+      "available": true,
+      "images": [
+        "images/p57_1795518473101.jpg"
+      ],
+      "image": "images/p57_1795518473101.jpg",
+      "color": "#EEF2F7"
+    },
+    {
+      "id": "p58",
+      "name": "Kitob \"Me'mor\" (Mirmuhsin)",
+      "category": "c1794831359486",
+      "price": 27000,
+      "unit": "dona",
+      "emoji": "📦",
+      "available": true,
+      "images": [
+        "images/p58_1795518670772.jpg"
+      ],
+      "image": "images/p58_1795518670772.jpg",
+      "color": "#EEF2F7"
     }
   ]
 }
