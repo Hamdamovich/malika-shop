@@ -795,6 +795,20 @@
       ],
       "image": "images/p52_1795516793067.jpg",
       "color": "#EEF2F7"
+    },
+    {
+      "id": "p53",
+      "name": "Kitob \"Vavilonlik eng boy odam\" (Jorj Samyuel Kleyson)",
+      "category": "c1794831359486",
+      "price": 25000,
+      "unit": "dona",
+      "emoji": "📦",
+      "available": true,
+      "images": [
+        "images/p53_1795517109607.jpg"
+      ],
+      "image": "images/p53_1795517109607.jpg",
+      "color": "#EEF2F7"
     }
   ]
 }
