@@ -949,6 +949,20 @@
       ],
       "image": "images/p63_1795519906015.jpg",
       "color": "#EEF2F7"
+    },
+    {
+      "id": "p64",
+      "name": "Kitob \"Yolg'n psixologiyasi\" (Pol Ekman)",
+      "category": "c1794831359486",
+      "price": 100000,
+      "unit": "dona",
+      "emoji": "📦",
+      "available": true,
+      "images": [
+        "images/p64_1795520268291.jpg"
+      ],
+      "image": "images/p64_1795520268291.jpg",
+      "color": "#EEF2F7"
     }
   ]
 }
