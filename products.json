@@ -440,6 +440,20 @@
       ],
       "image": "images/p27_1795504883337.jpg",
       "color": "#EEF2F7"
+    },
+    {
+      "id": "p28",
+      "name": "Kitob \"Yashamoq\" (Yuy Xua)",
+      "category": "c1794831359486",
+      "price": 60000,
+      "unit": "dona",
+      "emoji": "📦",
+      "available": true,
+      "images": [
+        "images/p28_1795505104743.jpg"
+      ],
+      "image": "images/p28_1795505104743.jpg",
+      "color": "#EEF2F7"
     }
   ]
 }
