@@ -711,6 +711,20 @@
       ],
       "image": "images/p46_1795514455669.jpg",
       "color": "#EEF2F7"
+    },
+    {
+      "id": "p47",
+      "name": "Kitob \"Jimjitlik\" (Said Ahmad)",
+      "category": "c1794831359486",
+      "price": 60000,
+      "unit": "dona",
+      "emoji": "📦",
+      "available": true,
+      "images": [
+        "images/p47_1795514921689.jpg"
+      ],
+      "image": "images/p47_1795514921689.jpg",
+      "color": "#EEF2F7"
     }
   ]
 }
