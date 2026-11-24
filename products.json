@@ -753,6 +753,34 @@
       ],
       "image": "images/p49_1795515504121.jpg",
       "color": "#EEF2F7"
+    },
+    {
+      "id": "p50",
+      "name": "Kitob \"Uchdan keyin kech\" 1-Kitob 12 Nashir (Masaru Ibuka)",
+      "category": "c1794831359486",
+      "price": 68000,
+      "unit": "dona",
+      "emoji": "📦",
+      "available": true,
+      "images": [
+        "images/p50_1795516015180.jpg"
+      ],
+      "image": "images/p50_1795516015180.jpg",
+      "color": "#EEF2F7"
+    },
+    {
+      "id": "p51",
+      "name": "Kitob \"Samaradorlikning 21 yo'li\" (Braian Treysi)",
+      "category": "c1794831359486",
+      "price": 42000,
+      "unit": "dona",
+      "emoji": "📦",
+      "available": true,
+      "images": [
+        "images/p51_1795516344665.jpg"
+      ],
+      "image": "images/p51_1795516344665.jpg",
+      "color": "#EEF2F7"
     }
   ]
 }
