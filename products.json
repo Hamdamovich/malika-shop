@@ -963,6 +963,20 @@
       ],
       "image": "images/p64_1795520268291.jpg",
       "color": "#EEF2F7"
+    },
+    {
+      "id": "p65",
+      "name": "Kitob \"Kelishuv psixologiyasi\" (Robert Chaldini)",
+      "category": "c1794831359486",
+      "price": 100000,
+      "unit": "dona",
+      "emoji": "📦",
+      "available": true,
+      "images": [
+        "images/p65_1795520536660.jpg"
+      ],
+      "image": "images/p65_1795520536660.jpg",
+      "color": "#EEF2F7"
     }
   ]
 }
