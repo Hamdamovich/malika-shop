@@ -669,6 +669,34 @@
       ],
       "image": "images/p43_1795512427295.jpg",
       "color": "#EEF2F7"
+    },
+    {
+      "id": "p44",
+      "name": "Kitob \"Dardingni sev\" (Valeriy Sinelnikov)",
+      "category": "c1794831359486",
+      "price": 33000,
+      "unit": "dona",
+      "emoji": "📦",
+      "available": true,
+      "images": [
+        "images/p44_1795512865251.jpg"
+      ],
+      "image": "images/p44_1795512865251.jpg",
+      "color": "#EEF2F7"
+    },
+    {
+      "id": "p45",
+      "name": "Kitob \"Kaftingdagi kapalak\" (Axmad SHarif Izgoran)",
+      "category": "c1794831359486",
+      "price": 48000,
+      "unit": "dona",
+      "emoji": "📦",
+      "available": true,
+      "images": [
+        "images/p45_1795514045086.jpg"
+      ],
+      "image": "images/p45_1795514045086.jpg",
+      "color": "#EEF2F7"
     }
   ]
 }
