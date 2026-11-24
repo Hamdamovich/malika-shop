@@ -907,6 +907,20 @@
       ],
       "image": "images/p60_1795519121906.jpg",
       "color": "#EEF2F7"
+    },
+    {
+      "id": "p61",
+      "name": "Kitob \"Jaziramadagi odamlar\" (Luqmon Borixon)",
+      "category": "c1794831359486",
+      "price": 47000,
+      "unit": "dona",
+      "emoji": "📦",
+      "available": true,
+      "images": [
+        "images/p61_1795519347988.jpg"
+      ],
+      "image": "images/p61_1795519347988.jpg",
+      "color": "#EEF2F7"
     }
   ]
 }
