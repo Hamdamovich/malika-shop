@@ -1047,6 +1047,20 @@
       ],
       "image": "images/p70_1795523069434.jpg",
       "color": "#EEF2F7"
+    },
+    {
+      "id": "p71",
+      "name": "Kitob \"Bolalik xotiralarim\" (Muso Toshmuhammad O'g'li Oybek)",
+      "category": "c1794831359486",
+      "price": 25000,
+      "unit": "dona",
+      "emoji": "📦",
+      "available": true,
+      "images": [
+        "images/p71_1795523368350.jpg"
+      ],
+      "image": "images/p71_1795523368350.jpg",
+      "color": "#EEF2F7"
     }
   ]
 }
