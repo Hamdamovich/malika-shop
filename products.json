@@ -454,6 +454,48 @@
       ],
       "image": "images/p28_1795505104743.jpg",
       "color": "#EEF2F7"
+    },
+    {
+      "id": "p29",
+      "name": "Kitob \"1500 yillik Mahbuslar\" (Xoshim Abdulloh)",
+      "category": "c1794831359486",
+      "price": 110000,
+      "unit": "dona",
+      "emoji": "📦",
+      "available": true,
+      "images": [
+        "images/p29_1795506408010.jpg"
+      ],
+      "image": "images/p29_1795506408010.jpg",
+      "color": "#EEF2F7"
+    },
+    {
+      "id": "p30",
+      "name": "Kitob \"Fotimaning bolasi\" (Josim Al-Umron)",
+      "category": "c1794831359486",
+      "price": 60000,
+      "unit": "dona",
+      "emoji": "📦",
+      "available": true,
+      "images": [
+        "images/p30_1795506869431.jpg"
+      ],
+      "image": "images/p30_1795506869431.jpg",
+      "color": "#EEF2F7"
+    },
+    {
+      "id": "p31",
+      "name": "Kitob \"Yusufning qizi\" (Josim Al-Umron)",
+      "category": "c1794831359486",
+      "price": 100000,
+      "unit": "dona",
+      "emoji": "📦",
+      "available": true,
+      "images": [
+        "images/p31_1795507249197.jpg"
+      ],
+      "image": "images/p31_1795507249197.jpg",
+      "color": "#EEF2F7"
     }
   ]
 }
