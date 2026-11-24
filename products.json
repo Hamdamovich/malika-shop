@@ -286,6 +286,160 @@
       ],
       "image": "images/p16_1794891349753.jpg",
       "color": "#EEF2F7"
+    },
+    {
+      "id": "p17",
+      "name": "Kitob \"Sen bir men o'zga olam\" (Feya Moran)",
+      "category": "c1794831359486",
+      "price": 60000,
+      "unit": "dona",
+      "emoji": "📦",
+      "available": true,
+      "images": [
+        "images/p17_1795503316444.jpg"
+      ],
+      "image": "images/p17_1795503316444.jpg",
+      "color": "#EEF2F7"
+    },
+    {
+      "id": "p18",
+      "name": "Kitob \"Ko'rlik\" (Joze Saramago)",
+      "category": "c1794831359486",
+      "price": 40000,
+      "unit": "dona",
+      "emoji": "📦",
+      "available": true,
+      "images": [
+        "images/p18_1795503479895.jpg"
+      ],
+      "image": "images/p18_1795503479895.jpg",
+      "color": "#EEF2F7"
+    },
+    {
+      "id": "p19",
+      "name": "Kitob \"Atom odatlar\" (Jeyms Klir)",
+      "category": "c1794831359486",
+      "price": 50000,
+      "unit": "dona",
+      "emoji": "📦",
+      "available": true,
+      "images": [
+        "images/p19_1795503589253.jpg"
+      ],
+      "image": "images/p19_1795503589253.jpg",
+      "color": "#EEF2F7"
+    },
+    {
+      "id": "p20",
+      "name": "Kitob \"Sardogarlar Ustozi\" (Axadquli Xolmuhammad o'g'li)",
+      "category": "c1794831359486",
+      "price": 30000,
+      "unit": "dona",
+      "emoji": "📦",
+      "available": true,
+      "images": [
+        "images/p20_1795503711230.jpg"
+      ],
+      "image": "images/p20_1795503711230.jpg",
+      "color": "#EEF2F7"
+    },
+    {
+      "id": "p21",
+      "name": "Kitob \"Iste'dodli insonlar mamlakatning bebaho boyligidir\" Li Kuan Yu ximatlari (M.A.Raxmatov, B.Z.Zaripov)",
+      "category": "c1794831359486",
+      "price": 50000,
+      "unit": "dona",
+      "emoji": "📦",
+      "available": true,
+      "images": [
+        "images/p21_1795503922995.jpg"
+      ],
+      "image": "images/p21_1795503922995.jpg",
+      "color": "#EEF2F7"
+    },
+    {
+      "id": "p22",
+      "name": "Kitob \"Qulog'im senda, qizim!\" (Abdulloh Muhammad Abdulmu'ti)",
+      "category": "c1794831359486",
+      "price": 90000,
+      "unit": "dona",
+      "emoji": "📦",
+      "available": true,
+      "images": [
+        "images/p22_1795504111449.jpg"
+      ],
+      "image": "images/p22_1795504111449.jpg",
+      "color": "#EEF2F7"
+    },
+    {
+      "id": "p23",
+      "name": "Kitob \"Binafsha shu'lasi II\" (Usoma Muslim)",
+      "category": "c1794831359486",
+      "price": 120000,
+      "unit": "dona",
+      "emoji": "📦",
+      "available": true,
+      "images": [
+        "images/p23_1795504329073.jpg"
+      ],
+      "image": "images/p23_1795504329073.jpg",
+      "color": "#EEF2F7"
+    },
+    {
+      "id": "p24",
+      "name": "Kitob \"Binafsha shulasi\" (Usoma Muslim)",
+      "category": "c1794831359486",
+      "price": 90000,
+      "unit": "dona",
+      "emoji": "📦",
+      "available": true,
+      "images": [
+        "images/p24_1795504474045.jpg"
+      ],
+      "image": "images/p24_1795504474045.jpg",
+      "color": "#EEF2F7"
+    },
+    {
+      "id": "p25",
+      "name": "Kitob \"Baxtga yo'llanma\" (Abu Nasr Forobiy)",
+      "category": "c1794831359486",
+      "price": 80000,
+      "unit": "dona",
+      "emoji": "📦",
+      "available": true,
+      "images": [
+        "images/p25_1795504597645.jpg"
+      ],
+      "image": "images/p25_1795504597645.jpg",
+      "color": "#EEF2F7"
+    },
+    {
+      "id": "p26",
+      "name": "Kitob \"Bolakay, Ko'rsichqon, Tulki va Tulpor\" (Charli Makkizi)",
+      "category": "c1794831359486",
+      "price": 120000,
+      "unit": "dona",
+      "emoji": "📦",
+      "available": true,
+      "images": [
+        "images/p26_1795504754093.jpg"
+      ],
+      "image": "images/p26_1795504754093.jpg",
+      "color": "#EEF2F7"
+    },
+    {
+      "id": "p27",
+      "name": "Kitob \"Qaysar\" (Mustaqim Jiva)",
+      "category": "c1794831359486",
+      "price": 100000,
+      "unit": "dona",
+      "emoji": "📦",
+      "available": true,
+      "images": [
+        "images/p27_1795504883337.jpg"
+      ],
+      "image": "images/p27_1795504883337.jpg",
+      "color": "#EEF2F7"
     }
   ]
 }
