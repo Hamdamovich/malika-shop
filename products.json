@@ -977,6 +977,20 @@
       ],
       "image": "images/p65_1795520536660.jpg",
       "color": "#EEF2F7"
+    },
+    {
+      "id": "p66",
+      "name": "Kitob \"Million dollarlik xatolar\" (Pavel Annenkov)",
+      "category": "c1794831359486",
+      "price": 90000,
+      "unit": "dona",
+      "emoji": "📦",
+      "available": true,
+      "images": [
+        "images/p66_1795520793218.jpg"
+      ],
+      "image": "images/p66_1795520793218.jpg",
+      "color": "#EEF2F7"
     }
   ]
 }
