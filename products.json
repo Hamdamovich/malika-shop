@@ -46,6 +46,11 @@
       "id": "c1794831359486",
       "name": "Kitoblar",
       "emoji": "📖"
+    },
+    {
+      "id": "c1795507952326",
+      "name": "Kitob/Kodekslar",
+      "emoji": "📖"
     }
   ],
   "products": [
@@ -523,6 +528,118 @@
         "images/p33_1795507591733.jpg"
       ],
       "image": "images/p33_1795507591733.jpg",
+      "color": "#EEF2F7"
+    },
+    {
+      "id": "p34",
+      "name": "Kitob/Kodeks \"O'zbekiston Respublikasining Ma'muriy javobgarlik to'g'risidagi Kodeksi\"",
+      "category": "c1795507952326",
+      "price": 160000,
+      "unit": "dona",
+      "emoji": "📦",
+      "available": true,
+      "images": [
+        "images/p34_1795508186318.jpg"
+      ],
+      "image": "images/p34_1795508186318.jpg",
+      "color": "#EEF2F7"
+    },
+    {
+      "id": "p35",
+      "name": "Kitob/Kodeks \"O'zbekiston Respublikasining Jinoyat Kodeksi\"",
+      "category": "c1795507952326",
+      "price": 160000,
+      "unit": "dona",
+      "emoji": "📦",
+      "available": true,
+      "images": [
+        "images/p35_1795508266890.jpg"
+      ],
+      "image": "images/p35_1795508266890.jpg",
+      "color": "#EEF2F7"
+    },
+    {
+      "id": "p36",
+      "name": "Kitob/Kodeks \"O'zbekiston Respublikasining Mehnat Kodeksi\"",
+      "category": "c1795507952326",
+      "price": 160000,
+      "unit": "dona",
+      "emoji": "📦",
+      "available": true,
+      "images": [
+        "images/p36_1795508767512.jpg"
+      ],
+      "image": "images/p36_1795508767512.jpg",
+      "color": "#EEF2F7"
+    },
+    {
+      "id": "p37",
+      "name": "Kitob/Kodeks \"O'zbekiston Respublikasining Jinoyat-Protsessual Kodeksi\"",
+      "category": "c1795507952326",
+      "price": 160000,
+      "unit": "dona",
+      "emoji": "📦",
+      "available": true,
+      "images": [
+        "images/p37_1795508847150.jpg"
+      ],
+      "image": "images/p37_1795508847150.jpg",
+      "color": "#EEF2F7"
+    },
+    {
+      "id": "p38",
+      "name": "Kitob \"Inson o'zida ishonch hosil qila bilishi va omma oldida gapira turib, odamlarga qanday ta'sir o'tkaza bilish haqida\" (Deyl Karnegi)",
+      "category": "c1794831359486",
+      "price": 25000,
+      "unit": "dona",
+      "emoji": "📦",
+      "available": true,
+      "images": [
+        "images/p38_1795509258591.jpg"
+      ],
+      "image": "images/p38_1795509258591.jpg",
+      "color": "#EEF2F7"
+    },
+    {
+      "id": "p39",
+      "name": "Kitob \"Muvaffaqiyatli odamlarning xayotiy qoidalari\" (Deyl Karnegi)",
+      "category": "c1794831359486",
+      "price": 25000,
+      "unit": "dona",
+      "emoji": "📦",
+      "available": true,
+      "images": [
+        "images/p39_1795510527838.jpg"
+      ],
+      "image": "images/p39_1795510527838.jpg",
+      "color": "#EEF2F7"
+    },
+    {
+      "id": "p40",
+      "name": "Kitob \"Qanday qilib dost orttirish va odamlarga ta'sir etish mumkin?\" (Deyl Karnegi)",
+      "category": "c1794831359486",
+      "price": 25000,
+      "unit": "dona",
+      "emoji": "📦",
+      "available": true,
+      "images": [
+        "images/p40_1795511075607.jpg"
+      ],
+      "image": "images/p40_1795511075607.jpg",
+      "color": "#EEF2F7"
+    },
+    {
+      "id": "p41",
+      "name": "Kitob \"Mening o'g'rigina bolam\" (G'afur G'ulom)",
+      "category": "c1794831359486",
+      "price": 25000,
+      "unit": "dona",
+      "emoji": "📦",
+      "available": true,
+      "images": [
+        "images/p41_1795511405057.jpg"
+      ],
+      "image": "images/p41_1795511405057.jpg",
       "color": "#EEF2F7"
     }
   ]
