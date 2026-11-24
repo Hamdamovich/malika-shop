@@ -991,6 +991,20 @@
       ],
       "image": "images/p66_1795520793218.jpg",
       "color": "#EEF2F7"
+    },
+    {
+      "id": "p67",
+      "name": "Kitob \"Otamdan qolgan dalalar\" (Tog'ay Murod)",
+      "category": "c1794831359486",
+      "price": 80000,
+      "unit": "dona",
+      "emoji": "📦",
+      "available": true,
+      "images": [
+        "images/p67_1795521279405.jpg"
+      ],
+      "image": "images/p67_1795521279405.jpg",
+      "color": "#EEF2F7"
     }
   ]
 }
