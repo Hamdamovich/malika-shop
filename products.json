@@ -921,6 +921,20 @@
       ],
       "image": "images/p61_1795519347988.jpg",
       "color": "#EEF2F7"
+    },
+    {
+      "id": "p62",
+      "name": "Kitob \"Jazosiz tarbiya 2\" (Adem gunesh)",
+      "category": "c1794831359486",
+      "price": 50000,
+      "unit": "dona",
+      "emoji": "📦",
+      "available": true,
+      "images": [
+        "images/p62_1795519596867.jpg"
+      ],
+      "image": "images/p62_1795519596867.jpg",
+      "color": "#EEF2F7"
     }
   ]
 }
