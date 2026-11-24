@@ -18,6 +18,16 @@
   },
   "categories": [
     {
+      "id": "c1794831359486",
+      "name": "Kitoblar",
+      "emoji": "📖"
+    },
+    {
+      "id": "c1795507952326",
+      "name": "Kitob/Kodekslar",
+      "emoji": "📖"
+    },
+    {
       "id": "daftar",
       "name": "Daftarlar",
       "emoji": "📒"
@@ -41,16 +51,6 @@
       "id": "boshqa",
       "name": "Boshqa",
       "emoji": "✂️"
-    },
-    {
-      "id": "c1794831359486",
-      "name": "Kitoblar",
-      "emoji": "📖"
-    },
-    {
-      "id": "c1795507952326",
-      "name": "Kitob/Kodekslar",
-      "emoji": "📖"
     }
   ],
   "products": [
@@ -938,7 +938,7 @@
     },
     {
       "id": "p63",
-      "name": "Kitob \"Qo'rquv PsIxologiyasi\" (Yulduz Burkovik O'g'uz Tan)",
+      "name": "Kitob \"Qo'rquv Psixologiyasi\" (Yulduz Burkovik O'g'uz Tan)",
       "category": "c1794831359486",
       "price": 75000,
       "unit": "dona",
@@ -952,7 +952,7 @@
     },
     {
       "id": "p64",
-      "name": "Kitob \"Yolg'n psixologiyasi\" (Pol Ekman)",
+      "name": "Kitob \"Yolg'on Psixologiyasi\" (Pol Ekman)",
       "category": "c1794831359486",
       "price": 100000,
       "unit": "dona",
@@ -1008,7 +1008,7 @@
     },
     {
       "id": "p68",
-      "name": "Kitob \"Menkim, soxibqiron-Jaxongir Temur\" (Marseliy Brion)",
+      "name": "Kitob \"Menkim, Sohibqiron-Jaxongir Temur\" (Marseliy Brion)",
       "category": "c1794831359486",
       "price": 50000,
       "unit": "dona",
@@ -1018,6 +1018,34 @@
         "images/p68_1795521634332.jpg"
       ],
       "image": "images/p68_1795521634332.jpg",
+      "color": "#EEF2F7"
+    },
+    {
+      "id": "p69",
+      "name": "Kitob \"Temur tuzuklari\" (Amir Temur)",
+      "category": "c1794831359486",
+      "price": 27000,
+      "unit": "dona",
+      "emoji": "📦",
+      "available": true,
+      "images": [
+        "images/p69_1795522494941.jpg"
+      ],
+      "image": "images/p69_1795522494941.jpg",
+      "color": "#EEF2F7"
+    },
+    {
+      "id": "p70",
+      "name": "Kitob \"Ulug'bek xazinasi\" (Odil Yoqubov)",
+      "category": "c1794831359486",
+      "price": 25000,
+      "unit": "dona",
+      "emoji": "📦",
+      "available": true,
+      "images": [
+        "images/p70_1795523069434.jpg"
+      ],
+      "image": "images/p70_1795523069434.jpg",
       "color": "#EEF2F7"
     }
   ]
