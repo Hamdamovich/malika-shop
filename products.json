@@ -387,7 +387,7 @@
     },
     {
       "id": "p24",
-      "name": "Kitob \"Binafsha shulasi\" (Usoma Muslim)",
+      "name": "Kitob \"Binafsha shu'lasi\" (Usoma Muslim)",
       "category": "c1794831359486",
       "price": 90000,
       "unit": "dona",
@@ -495,6 +495,34 @@
         "images/p31_1795507249197.jpg"
       ],
       "image": "images/p31_1795507249197.jpg",
+      "color": "#EEF2F7"
+    },
+    {
+      "id": "p32",
+      "name": "Kitob \"Ko'zlaringni xaromdan saqla\" (Marve O'zjan)",
+      "category": "c1794831359486",
+      "price": 110000,
+      "unit": "dona",
+      "emoji": "📦",
+      "available": true,
+      "images": [
+        "images/p32_1795507438183.jpg"
+      ],
+      "image": "images/p32_1795507438183.jpg",
+      "color": "#EEF2F7"
+    },
+    {
+      "id": "p33",
+      "name": "Kitob \"Sohilsiz dengiz\" (Axmad Muhammad Tursun)",
+      "category": "c1794831359486",
+      "price": 65000,
+      "unit": "dona",
+      "emoji": "📦",
+      "available": true,
+      "images": [
+        "images/p33_1795507591733.jpg"
+      ],
+      "image": "images/p33_1795507591733.jpg",
       "color": "#EEF2F7"
     }
   ]
