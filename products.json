@@ -1005,6 +1005,20 @@
       ],
       "image": "images/p67_1795521279405.jpg",
       "color": "#EEF2F7"
+    },
+    {
+      "id": "p68",
+      "name": "Kitob \"Menkim, soxibqiron-Jaxongir Temur\" (Marseliy Brion)",
+      "category": "c1794831359486",
+      "price": 50000,
+      "unit": "dona",
+      "emoji": "📦",
+      "available": true,
+      "images": [
+        "images/p68_1795521634332.jpg"
+      ],
+      "image": "images/p68_1795521634332.jpg",
+      "color": "#EEF2F7"
     }
   ]
 }
