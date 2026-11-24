@@ -725,6 +725,34 @@
       ],
       "image": "images/p47_1795514921689.jpg",
       "color": "#EEF2F7"
+    },
+    {
+      "id": "p48",
+      "name": "Kitob \"Tana tili\" (Allan Piz)",
+      "category": "c1794831359486",
+      "price": 50000,
+      "unit": "dona",
+      "emoji": "📦",
+      "available": true,
+      "images": [
+        "images/p48_1795515257636.jpg"
+      ],
+      "image": "images/p48_1795515257636.jpg",
+      "color": "#EEF2F7"
+    },
+    {
+      "id": "p49",
+      "name": "Kitob \"Uch qalb\" (Jek London)",
+      "category": "c1794831359486",
+      "price": 45000,
+      "unit": "dona",
+      "emoji": "📦",
+      "available": true,
+      "images": [
+        "images/p49_1795515504121.jpg"
+      ],
+      "image": "images/p49_1795515504121.jpg",
+      "color": "#EEF2F7"
     }
   ]
 }
