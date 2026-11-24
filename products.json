@@ -893,6 +893,20 @@
       ],
       "image": "images/p59_1795518898282.jpg",
       "color": "#EEF2F7"
+    },
+    {
+      "id": "p60",
+      "name": "Kitob \"Oltin zanglamas\" (Shuhrat)",
+      "category": "c1794831359486",
+      "price": 30000,
+      "unit": "dona",
+      "emoji": "📦",
+      "available": true,
+      "images": [
+        "images/p60_1795519121906.jpg"
+      ],
+      "image": "images/p60_1795519121906.jpg",
+      "color": "#EEF2F7"
     }
   ]
 }
