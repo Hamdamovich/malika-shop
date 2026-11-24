@@ -879,6 +879,20 @@
       ],
       "image": "images/p58_1795518670772.jpg",
       "color": "#EEF2F7"
+    },
+    {
+      "id": "p59",
+      "name": "Kitob \"Garov\" (Anton Pavlovich Chexov)",
+      "category": "c1794831359486",
+      "price": 22000,
+      "unit": "dona",
+      "emoji": "📦",
+      "available": true,
+      "images": [
+        "images/p59_1795518898282.jpg"
+      ],
+      "image": "images/p59_1795518898282.jpg",
+      "color": "#EEF2F7"
     }
   ]
 }
