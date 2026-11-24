@@ -809,6 +809,34 @@
       ],
       "image": "images/p53_1795517109607.jpg",
       "color": "#EEF2F7"
+    },
+    {
+      "id": "p54",
+      "name": "Kitob \"Asrni qaritgan kun\" (Chingiz Aytmatov)",
+      "category": "c1794831359486",
+      "price": 30000,
+      "unit": "dona",
+      "emoji": "📦",
+      "available": true,
+      "images": [
+        "images/p54_1795517587282.jpg"
+      ],
+      "image": "images/p54_1795517587282.jpg",
+      "color": "#EEF2F7"
+    },
+    {
+      "id": "p55",
+      "name": "Kitob \"Qiyomat\" (Chingiz Aytmatov)",
+      "category": "c1794831359486",
+      "price": 35000,
+      "unit": "dona",
+      "emoji": "📦",
+      "available": true,
+      "images": [
+        "images/p55_1795517809597.jpg"
+      ],
+      "image": "images/p55_1795517809597.jpg",
+      "color": "#EEF2F7"
     }
   ]
 }
