@@ -697,6 +697,20 @@
       ],
       "image": "images/p45_1795514045086.jpg",
       "color": "#EEF2F7"
+    },
+    {
+      "id": "p46",
+      "name": "Kitob \"Ta'sir Psixologiyasi\" (Robert CHaldini)",
+      "category": "c1794831359486",
+      "price": 110000,
+      "unit": "dona",
+      "emoji": "📦",
+      "available": true,
+      "images": [
+        "images/p46_1795514455669.jpg"
+      ],
+      "image": "images/p46_1795514455669.jpg",
+      "color": "#EEF2F7"
     }
   ]
 }
