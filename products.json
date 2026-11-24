@@ -935,6 +935,20 @@
       ],
       "image": "images/p62_1795519596867.jpg",
       "color": "#EEF2F7"
+    },
+    {
+      "id": "p63",
+      "name": "Kitob \"Qo'rquv PsIxologiyasi\" (Yulduz Burkovik O'g'uz Tan)",
+      "category": "c1794831359486",
+      "price": 75000,
+      "unit": "dona",
+      "emoji": "📦",
+      "available": true,
+      "images": [
+        "images/p63_1795519906015.jpg"
+      ],
+      "image": "images/p63_1795519906015.jpg",
+      "color": "#EEF2F7"
     }
   ]
 }
