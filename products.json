@@ -651,9 +651,23 @@
       "emoji": "📦",
       "available": true,
       "images": [
-        "images/p42_1795511820460.jpg"
+        "images/p42_1795511937566.jpg"
       ],
-      "image": "images/p42_1795511820460.jpg",
+      "image": "images/p42_1795511937566.jpg",
+      "color": "#EEF2F7"
+    },
+    {
+      "id": "p43",
+      "name": "Kitob \"Boy ota kambag'al ota\" (Robert T.Kiyosaki, SHaron L. Lechter)",
+      "category": "c1794831359486",
+      "price": 30000,
+      "unit": "dona",
+      "emoji": "📦",
+      "available": true,
+      "images": [
+        "images/p43_1795512427295.jpg"
+      ],
+      "image": "images/p43_1795512427295.jpg",
       "color": "#EEF2F7"
     }
   ]
