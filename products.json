@@ -641,6 +641,20 @@
       ],
       "image": "images/p41_1795511405057.jpg",
       "color": "#EEF2F7"
+    },
+    {
+      "id": "p42",
+      "name": "Kitob \"Boy bola aqlli bola\" (Robert Kiyosaki)",
+      "category": "c1794831359486",
+      "price": 30000,
+      "unit": "dona",
+      "emoji": "📦",
+      "available": true,
+      "images": [
+        "images/p42_1795511820460.jpg"
+      ],
+      "image": "images/p42_1795511820460.jpg",
+      "color": "#EEF2F7"
     }
   ]
 }
