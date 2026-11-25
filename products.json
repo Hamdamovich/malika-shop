@@ -1075,6 +1075,34 @@
       ],
       "image": "images/p72_1795596293642.jpg",
       "color": "#EEF2F7"
+    },
+    {
+      "id": "p73",
+      "name": "Kitob \"Otoyning tug'ilgan yili\" (Erkin A'zam)",
+      "category": "c1794831359486",
+      "price": 27000,
+      "unit": "dona",
+      "emoji": "📦",
+      "available": true,
+      "images": [
+        "images/p73_1795604609790.jpg"
+      ],
+      "image": "images/p73_1795604609790.jpg",
+      "color": "#EEF2F7"
+    },
+    {
+      "id": "p74",
+      "name": "Kitob \"Xamsa\" (Alisher Navoiy)",
+      "category": "c1794831359486",
+      "price": 33000,
+      "unit": "dona",
+      "emoji": "📦",
+      "available": true,
+      "images": [
+        "images/p74_1795604801248.jpg"
+      ],
+      "image": "images/p74_1795604801248.jpg",
+      "color": "#EEF2F7"
     }
   ]
 }
