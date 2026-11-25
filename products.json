@@ -1148,7 +1148,7 @@
     },
     {
       "id": "p78",
-      "name": "Kitob \"Sarviqomat dilbarim\" (Chingiz Aytmatov)",
+      "name": "Kitob \"Sarvqomat dilbarim\" (Chingiz Aytmatov)",
       "category": "c1794831359486",
       "price": 15000,
       "unit": "dona",
@@ -1354,6 +1354,20 @@
         "images/p92_1795609664851.jpg"
       ],
       "image": "images/p92_1795609664851.jpg",
+      "color": "#EEF2F7"
+    },
+    {
+      "id": "p93",
+      "name": "Kitob \"Mehrobdan chayon\" (Abdulla Qodiriy)",
+      "category": "c1794831359486",
+      "price": 25000,
+      "unit": "dona",
+      "emoji": "📦",
+      "available": true,
+      "images": [
+        "images/p93_1795609946291.jpg"
+      ],
+      "image": "images/p93_1795609946291.jpg",
       "color": "#EEF2F7"
     }
   ]
