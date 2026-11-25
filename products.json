@@ -1383,6 +1383,20 @@
       ],
       "image": "images/p94_1795610140519.jpg",
       "color": "#EEF2F7"
+    },
+    {
+      "id": "p95",
+      "name": "Kitob \"Molxona\" (Jorj Oruell)",
+      "category": "c1794831359486",
+      "price": 25000,
+      "unit": "dona",
+      "emoji": "📦",
+      "available": true,
+      "images": [
+        "images/p95_1795610336680.jpg"
+      ],
+      "image": "images/p95_1795610336680.jpg",
+      "color": "#EEF2F7"
     }
   ]
 }
