@@ -1313,6 +1313,20 @@
       ],
       "image": "images/p89_1795608742754.jpg",
       "color": "#EEF2F7"
+    },
+    {
+      "id": "p90",
+      "name": "Kitob \"Sohibqiron\" (Abdulla Oripov)",
+      "category": "c1794831359486",
+      "price": 12000,
+      "unit": "dona",
+      "emoji": "📦",
+      "available": true,
+      "images": [
+        "images/p90_1795608958143.jpg"
+      ],
+      "image": "images/p90_1795608958143.jpg",
+      "color": "#EEF2F7"
     }
   ]
 }
