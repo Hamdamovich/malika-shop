@@ -1061,6 +1061,21 @@
       ],
       "image": "images/p71_1795523368350.jpg",
       "color": "#EEF2F7"
+    },
+    {
+      "id": "p72",
+      "name": "Kitob \"Alvido...bolalik\" (Toxir Malik)",
+      "category": "c1794831359486",
+      "price": 45000,
+      "unit": "dona",
+      "emoji": "📦",
+      "available": true,
+      "images": [
+        "images/p72_1795600107258.jpg",
+        "images/p72_1795600107409.jpg"
+      ],
+      "image": "images/p72_1795600107258.jpg",
+      "color": "#EEF2F7"
     }
   ]
 }
