@@ -1299,6 +1299,20 @@
       ],
       "image": "images/p88_1795608540445.jpg",
       "color": "#EEF2F7"
+    },
+    {
+      "id": "p89",
+      "name": "Kitob \"Zulmat ichra nur\" (Mirkarim Osim)",
+      "category": "c1794831359486",
+      "price": 22000,
+      "unit": "dona",
+      "emoji": "📦",
+      "available": true,
+      "images": [
+        "images/p89_1795608742754.jpg"
+      ],
+      "image": "images/p89_1795608742754.jpg",
+      "color": "#EEF2F7"
     }
   ]
 }
