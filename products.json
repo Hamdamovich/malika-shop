@@ -1397,6 +1397,20 @@
       ],
       "image": "images/p95_1795610336680.jpg",
       "color": "#EEF2F7"
+    },
+    {
+      "id": "p96",
+      "name": "Kitob \"Odam bo'lish qiyin\" (O'lmas Umarbekov)",
+      "category": "c1794831359486",
+      "price": 25000,
+      "unit": "dona",
+      "emoji": "📦",
+      "available": true,
+      "images": [
+        "images/p96_1795610573344.jpg"
+      ],
+      "image": "images/p96_1795610573344.jpg",
+      "color": "#EEF2F7"
     }
   ]
 }
