@@ -1266,8 +1266,10 @@
       "unit": "dona",
       "emoji": "📦",
       "available": true,
-      "images": [],
-      "image": "",
+      "images": [
+        "images/p86_1795608123456.jpg"
+      ],
+      "image": "images/p86_1795608123456.jpg",
       "color": "#EEF2F7"
     }
   ]
