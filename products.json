@@ -1243,6 +1243,20 @@
       ],
       "image": "images/p84_1795607639779.jpg",
       "color": "#EEF2F7"
+    },
+    {
+      "id": "p85",
+      "name": "Kitob \"Jannati odamlar\" ( Xudoyberdi To'xtaboyev)",
+      "category": "c1794831359486",
+      "price": 15000,
+      "unit": "dona",
+      "emoji": "📦",
+      "available": true,
+      "images": [
+        "images/p85_1795607845919.jpg"
+      ],
+      "image": "images/p85_1795607845919.jpg",
+      "color": "#EEF2F7"
     }
   ]
 }
