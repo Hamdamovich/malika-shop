@@ -1369,6 +1369,20 @@
       ],
       "image": "images/p93_1795609946291.jpg",
       "color": "#EEF2F7"
+    },
+    {
+      "id": "p94",
+      "name": "Kitob \"O'tkan kunlar\" (Abdulla Qodiriy)",
+      "category": "c1794831359486",
+      "price": 25000,
+      "unit": "dona",
+      "emoji": "📦",
+      "available": true,
+      "images": [
+        "images/p94_1795610140519.jpg"
+      ],
+      "image": "images/p94_1795610140519.jpg",
+      "color": "#EEF2F7"
     }
   ]
 }
