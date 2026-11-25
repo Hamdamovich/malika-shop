@@ -1076,6 +1076,20 @@
       ],
       "image": "images/p72_1795600107258.jpg",
       "color": "#EEF2F7"
+    },
+    {
+      "id": "p73",
+      "name": "Kitob \"Otoyining tug'ilgan yili\" (Erkin A'zam)",
+      "category": "c1794831359486",
+      "price": 27000,
+      "unit": "dona",
+      "emoji": "📦",
+      "available": true,
+      "images": [
+        "images/p73_1795600384605.jpg"
+      ],
+      "image": "images/p73_1795600384605.jpg",
+      "color": "#EEF2F7"
     }
   ]
 }
