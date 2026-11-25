@@ -1257,6 +1257,18 @@
       ],
       "image": "images/p85_1795607845919.jpg",
       "color": "#EEF2F7"
+    },
+    {
+      "id": "p86",
+      "name": "Kitob \"Besh bolali yigitcha\" (Xudoyberdi To'xtaboyev)",
+      "category": "c1794831359486",
+      "price": 15000,
+      "unit": "dona",
+      "emoji": "📦",
+      "available": true,
+      "images": [],
+      "image": "",
+      "color": "#EEF2F7"
     }
   ]
 }
