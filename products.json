@@ -1173,6 +1173,20 @@
       ],
       "image": "images/p79_1795606064504.jpg",
       "color": "#EEF2F7"
+    },
+    {
+      "id": "p80",
+      "name": "Kitob \"Jayhun ustida bulutlar\" (Mirkarim Osim)",
+      "category": "c1794831359486",
+      "price": 25000,
+      "unit": "dona",
+      "emoji": "📦",
+      "available": true,
+      "images": [
+        "images/p80_1795606316156.jpg"
+      ],
+      "image": "images/p80_1795606316156.jpg",
+      "color": "#EEF2F7"
     }
   ]
 }
