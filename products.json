@@ -1414,16 +1414,30 @@
     },
     {
       "id": "p97",
-      "name": "Kitob \"Ikki eshik orasi\" (O'tkir Hoshimov)",
+      "name": "Kitob \"1984\" (Jorj Oruell)",
       "category": "c1794831359486",
-      "price": 30000,
+      "price": 65000,
       "unit": "dona",
       "emoji": "📦",
       "available": true,
       "images": [
-        "images/p97_1795610791291.jpg"
+        "images/p97_1795611599767.jpg"
       ],
-      "image": "images/p97_1795610791291.jpg",
+      "image": "images/p97_1795611599767.jpg",
+      "color": "#EEF2F7"
+    },
+    {
+      "id": "p98",
+      "name": "Kitob \"Ko'hna dunyo\" (Odil Yoqubov)",
+      "category": "c1794831359486",
+      "price": 35000,
+      "unit": "dona",
+      "emoji": "📦",
+      "available": true,
+      "images": [
+        "images/p98_1795611819976.jpg"
+      ],
+      "image": "images/p98_1795611819976.jpg",
       "color": "#EEF2F7"
     }
   ]
