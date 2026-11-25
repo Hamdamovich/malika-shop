@@ -1103,6 +1103,48 @@
       ],
       "image": "images/p74_1795604801248.jpg",
       "color": "#EEF2F7"
+    },
+    {
+      "id": "p75",
+      "name": "Kitob \"Saylanma 2 jild\" (Tog'ay Murod)",
+      "category": "c1794831359486",
+      "price": 33000,
+      "unit": "dona",
+      "emoji": "📦",
+      "available": true,
+      "images": [
+        "images/p75_1795605070581.jpg"
+      ],
+      "image": "images/p75_1795605070581.jpg",
+      "color": "#EEF2F7"
+    },
+    {
+      "id": "p76",
+      "name": "Kitob \"Shamol\" (Xolid Xusanyiy)",
+      "category": "c1794831359486",
+      "price": 40000,
+      "unit": "dona",
+      "emoji": "📦",
+      "available": true,
+      "images": [
+        "images/p76_1795605456985.jpg"
+      ],
+      "image": "images/p76_1795605456985.jpg",
+      "color": "#EEF2F7"
+    },
+    {
+      "id": "p77",
+      "name": "Kitob \"Yulduzlar aybdor\" (Jon Grin)",
+      "category": "c1794831359486",
+      "price": 55000,
+      "unit": "dona",
+      "emoji": "📦",
+      "available": true,
+      "images": [
+        "images/p77_1795605658067.jpg"
+      ],
+      "image": "images/p77_1795605658067.jpg",
+      "color": "#EEF2F7"
     }
   ]
 }
