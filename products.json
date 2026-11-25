@@ -1132,6 +1132,20 @@
       ],
       "image": "images/p76_1795601489589.jpg",
       "color": "#EEF2F7"
+    },
+    {
+      "id": "p77",
+      "name": "Kitob \"Yulduzlar aybdor\" (Jon Grin)",
+      "category": "c1794831359486",
+      "price": 55000,
+      "unit": "dona",
+      "emoji": "📦",
+      "available": true,
+      "images": [
+        "images/p77_1795601743120.jpg"
+      ],
+      "image": "images/p77_1795601743120.jpg",
+      "color": "#EEF2F7"
     }
   ]
 }
