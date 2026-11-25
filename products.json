@@ -1104,6 +1104,20 @@
       ],
       "image": "images/p74_1795600678923.jpg",
       "color": "#EEF2F7"
+    },
+    {
+      "id": "p75",
+      "name": "Kitob \"Saylanma 2 jild\" (To'g'ay Murod)",
+      "category": "c1794831359486",
+      "price": 33000,
+      "unit": "dona",
+      "emoji": "📦",
+      "available": true,
+      "images": [
+        "images/p75_1795601117405.jpg"
+      ],
+      "image": "images/p75_1795601117405.jpg",
+      "color": "#EEF2F7"
     }
   ]
 }
