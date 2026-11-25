@@ -1146,6 +1146,20 @@
       ],
       "image": "images/p77_1795601743120.jpg",
       "color": "#EEF2F7"
+    },
+    {
+      "id": "p78",
+      "name": "Kitob \"Sarvqomat dilbarim\" (Chingiz Aytmatov)",
+      "category": "c1794831359486",
+      "price": 15000,
+      "unit": "dona",
+      "emoji": "📦",
+      "available": true,
+      "images": [
+        "images/p78_1795602399676.jpg"
+      ],
+      "image": "images/p78_1795602399676.jpg",
+      "color": "#EEF2F7"
     }
   ]
 }
