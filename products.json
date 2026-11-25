@@ -1159,6 +1159,20 @@
       ],
       "image": "images/p78_1795605884514.jpg",
       "color": "#EEF2F7"
+    },
+    {
+      "id": "p79",
+      "name": "Kitob \"Anor' (Abdulla Qahhor)",
+      "category": "c1794831359486",
+      "price": 15000,
+      "unit": "dona",
+      "emoji": "📦",
+      "available": true,
+      "images": [
+        "images/p79_1795606064504.jpg"
+      ],
+      "image": "images/p79_1795606064504.jpg",
+      "color": "#EEF2F7"
     }
   ]
 }
