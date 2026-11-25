@@ -1201,6 +1201,20 @@
       ],
       "image": "images/p81_1795607063269.jpg",
       "color": "#EEF2F7"
+    },
+    {
+      "id": "p82",
+      "name": "Kitob \"O'n besh yoshli millioner\" (Xudoyberdi To'xtaboyev)",
+      "category": "c1794831359486",
+      "price": 15000,
+      "unit": "dona",
+      "emoji": "📦",
+      "available": true,
+      "images": [
+        "images/p82_1795607248994.jpg"
+      ],
+      "image": "images/p82_1795607248994.jpg",
+      "color": "#EEF2F7"
     }
   ]
 }
