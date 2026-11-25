@@ -1215,6 +1215,34 @@
       ],
       "image": "images/p82_1795607248994.jpg",
       "color": "#EEF2F7"
+    },
+    {
+      "id": "p83",
+      "name": "Kitob \"Mungli ko'zlar\" (Xudoyberdi To'xtaboyev)",
+      "category": "c1794831359486",
+      "price": 15000,
+      "unit": "dona",
+      "emoji": "📦",
+      "available": true,
+      "images": [
+        "images/p83_1795607428178.jpg"
+      ],
+      "image": "images/p83_1795607428178.jpg",
+      "color": "#EEF2F7"
+    },
+    {
+      "id": "p84",
+      "name": "Kitob \"Shirin qovunlar mamlakati\" (Xudoyberdi To'xtaboyev)",
+      "category": "c1794831359486",
+      "price": 15000,
+      "unit": "dona",
+      "emoji": "📦",
+      "available": true,
+      "images": [
+        "images/p84_1795607639779.jpg"
+      ],
+      "image": "images/p84_1795607639779.jpg",
+      "color": "#EEF2F7"
     }
   ]
 }
