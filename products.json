@@ -1327,6 +1327,20 @@
       ],
       "image": "images/p90_1795608958143.jpg",
       "color": "#EEF2F7"
+    },
+    {
+      "id": "p91",
+      "name": "Kitob \"Yulduzli tunlar\" (Pirimqul Qodirov)",
+      "category": "c1794831359486",
+      "price": 30000,
+      "unit": "dona",
+      "emoji": "📦",
+      "available": true,
+      "images": [
+        "images/p91_1795609396761.jpg"
+      ],
+      "image": "images/p91_1795609396761.jpg",
+      "color": "#EEF2F7"
     }
   ]
 }
