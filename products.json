@@ -1271,6 +1271,34 @@
       ],
       "image": "images/p86_1795608123456.jpg",
       "color": "#EEF2F7"
+    },
+    {
+      "id": "p87",
+      "name": "Kitob \"Qaylardasan bolaligim\" (Xudoyberdi To'xtaboyev)",
+      "category": "c1794831359486",
+      "price": 15000,
+      "unit": "dona",
+      "emoji": "📦",
+      "available": true,
+      "images": [
+        "images/p87_1795608300595.jpg"
+      ],
+      "image": "images/p87_1795608300595.jpg",
+      "color": "#EEF2F7"
+    },
+    {
+      "id": "p88",
+      "name": "Kitob \"Ruhlar isyoni\" (Erkin Vohidov)",
+      "category": "c1794831359486",
+      "price": 15000,
+      "unit": "dona",
+      "emoji": "📦",
+      "available": true,
+      "images": [
+        "images/p88_1795608540445.jpg"
+      ],
+      "image": "images/p88_1795608540445.jpg",
+      "color": "#EEF2F7"
     }
   ]
 }
