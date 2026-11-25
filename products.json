@@ -12,7 +12,7 @@
         5,
         6
       ],
-      "open": "08:00",
+      "open": "09:00",
       "close": "23:00"
     }
   },
@@ -1064,101 +1064,16 @@
     },
     {
       "id": "p72",
-      "name": "Kitob \"Alvido...bolalik\" (Toxir Malik)",
+      "name": "Kitob \"Avvalo... bolalik\" (Toxir Malik)",
       "category": "c1794831359486",
       "price": 45000,
       "unit": "dona",
       "emoji": "📦",
       "available": true,
       "images": [
-        "images/p72_1795600107258.jpg",
-        "images/p72_1795600107409.jpg"
+        "images/p72_1795596293642.jpg"
       ],
-      "image": "images/p72_1795600107258.jpg",
-      "color": "#EEF2F7"
-    },
-    {
-      "id": "p73",
-      "name": "Kitob \"Otoyining tug'ilgan yili\" (Erkin A'zam)",
-      "category": "c1794831359486",
-      "price": 27000,
-      "unit": "dona",
-      "emoji": "📦",
-      "available": true,
-      "images": [
-        "images/p73_1795600384605.jpg"
-      ],
-      "image": "images/p73_1795600384605.jpg",
-      "color": "#EEF2F7"
-    },
-    {
-      "id": "p74",
-      "name": "Kitob \"Xamsa\" (Alisher Navoiy)",
-      "category": "c1794831359486",
-      "price": 33000,
-      "unit": "dona",
-      "emoji": "📦",
-      "available": true,
-      "images": [
-        "images/p74_1795600678923.jpg"
-      ],
-      "image": "images/p74_1795600678923.jpg",
-      "color": "#EEF2F7"
-    },
-    {
-      "id": "p75",
-      "name": "Kitob \"Saylanma 2 jild\" (To'g'ay Murod)",
-      "category": "c1794831359486",
-      "price": 33000,
-      "unit": "dona",
-      "emoji": "📦",
-      "available": true,
-      "images": [
-        "images/p75_1795601117405.jpg"
-      ],
-      "image": "images/p75_1795601117405.jpg",
-      "color": "#EEF2F7"
-    },
-    {
-      "id": "p76",
-      "name": "Kitob \"Shamol ortidan yugirib\" (Xolid Xusayiniy)",
-      "category": "c1794831359486",
-      "price": 40000,
-      "unit": "dona",
-      "emoji": "📦",
-      "available": true,
-      "images": [
-        "images/p76_1795601489589.jpg"
-      ],
-      "image": "images/p76_1795601489589.jpg",
-      "color": "#EEF2F7"
-    },
-    {
-      "id": "p77",
-      "name": "Kitob \"Yulduzlar aybdor\" (Jon Grin)",
-      "category": "c1794831359486",
-      "price": 55000,
-      "unit": "dona",
-      "emoji": "📦",
-      "available": true,
-      "images": [
-        "images/p77_1795601743120.jpg"
-      ],
-      "image": "images/p77_1795601743120.jpg",
-      "color": "#EEF2F7"
-    },
-    {
-      "id": "p78",
-      "name": "Kitob \"Sarvqomat dilbarim\" (Chingiz Aytmatov)",
-      "category": "c1794831359486",
-      "price": 15000,
-      "unit": "dona",
-      "emoji": "📦",
-      "available": true,
-      "images": [
-        "images/p78_1795602399676.jpg"
-      ],
-      "image": "images/p78_1795602399676.jpg",
+      "image": "images/p72_1795596293642.jpg",
       "color": "#EEF2F7"
     }
   ]
