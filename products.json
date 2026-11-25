@@ -1118,6 +1118,20 @@
       ],
       "image": "images/p75_1795601117405.jpg",
       "color": "#EEF2F7"
+    },
+    {
+      "id": "p76",
+      "name": "Kitob \"Shamol ortidan yugirib\" (Xolid Xusayiniy)",
+      "category": "c1794831359486",
+      "price": 40000,
+      "unit": "dona",
+      "emoji": "📦",
+      "available": true,
+      "images": [
+        "images/p76_1795601489589.jpg"
+      ],
+      "image": "images/p76_1795601489589.jpg",
+      "color": "#EEF2F7"
     }
   ]
 }
