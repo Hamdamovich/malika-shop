@@ -1341,6 +1341,20 @@
       ],
       "image": "images/p91_1795609396761.jpg",
       "color": "#EEF2F7"
+    },
+    {
+      "id": "p92",
+      "name": "Kitob \"Kecha va Kunduz\" (Cho'lpon)",
+      "category": "c1794831359486",
+      "price": 20000,
+      "unit": "dona",
+      "emoji": "📦",
+      "available": true,
+      "images": [
+        "images/p92_1795609664851.jpg"
+      ],
+      "image": "images/p92_1795609664851.jpg",
+      "color": "#EEF2F7"
     }
   ]
 }
